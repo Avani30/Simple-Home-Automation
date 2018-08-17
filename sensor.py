@@ -53,13 +53,13 @@ def messageStreamHandler(message):
 
 if __name__ == '__main__':
 	config = {
-	    "apiKey": "AIzaSyBrt71aZg5DiyAxyM11no3I-Sh-YcNRarA",
-	    "authDomain": "homeautomation-23271.firebaseapp.com",
-	    "databaseURL": "https://homeautomation-23271.firebaseio.com",
-	    "projectId": "homeautomation-23271",
-	    "storageBucket": "homeautomation-23271.appspot.com",
-		"serviceAccount": "/home/pi/Desktop/homeautomation_key.json",
-	    "messagingSenderId": "49654542697"
+	    "apiKey": "**************************************",
+	    "authDomain": "**** PROJECT ID ****.firebaseapp.com",
+	    "databaseURL": "https://**** PROJECT ID ****.firebaseio.com",
+	    "projectId": "**************",
+	    "storageBucket": "**** PROJECT ID *****.appspot.com",
+		"serviceAccount": "*** PATH TO SERVICE ACCOUNT KEY JSON FILE ***",
+	    "messagingSenderId": "***********"
 	}
 
 	firebase = pyrebase.initialize_app(config)
